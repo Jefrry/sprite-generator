@@ -18,7 +18,7 @@ function setPics () {
         canvas.width    = columnOfPics * widthOfPics;
         canvas.height   = rowOfPics * heightOfPics;
         title.innerHTML = 'DO IT',
-        input           = document.getElementById('asd').files;
+        input           = document.getElementById('inputFiles').files;
 
     for (var i = 0; i < input.length; i++) {
         pics.push({
